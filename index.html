@@ -1,10 +1,91 @@
-<!DOCTYPE html>
+  <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Agrinho 2025</title>
-  <link rel="stylesheet" href="css/style.css">
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f8ff;
+      color: #333;
+    }
+    header {
+      background: url('https://images.unsplash.com/photo-1587300003388-59208cc962cb') no-repeat center/cover;
+      height: 300px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: white;
+      text-shadow: 2px 2px 4px rgba(0,0,0,0.7);
+      text-align: center;
+    }
+    header h1 {
+      font-size: 3em;
+    }
+    nav {
+      background: #2E8B57;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      margin: 10px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    section {
+      padding: 50px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+    .flex {
+      display: flex;
+      align-items: center;
+      gap: 20px;
+      flex-wrap: wrap;
+    }
+    .flex img {
+      max-width: 400px;
+      width: 100%;
+      border-radius: 10px;
+    }
+    h2 {
+      color: #228B22;
+      margin-bottom: 20px;
+    }
+    .gallery {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .gallery img {
+      width: 100%;
+      border-radius: 10px;
+    }
+    footer {
+      background: #228B22;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      margin-top: 50px;
+    }
+    @media (max-width: 768px) {
+      header {
+        height: 200px;
+      }
+      header h1 {
+        font-size: 2em;
+      }
+    }
+  </style>
 </head>
 <body>
 
@@ -20,7 +101,7 @@
 </nav>
 
 <section id="importancia" class="flex">
-  <img src="img/natureza.jpg" alt="Natureza">
+  <img src="https://images.unsplash.com/photo-1592928303074-cd30e7cc8554" alt="Natureza">
   <div>
     <h2>Importância do Tema</h2>
     <p>
@@ -41,16 +122,16 @@
       <li>Participar de campanhas ambientais.</li>
     </ul>
   </div>
-  <img src="img/acao.jpg" alt="Ação sustentável">
+  <img src="https://images.unsplash.com/photo-1501004318641-b39e6451bec6" alt="Ação sustentável">
 </section>
 
 <section id="galeria">
   <h2>Galeria de Imagens</h2>
   <div class="gallery">
-    <img src="img/campo.jpg" alt="Campo">
-    <img src="img/agricultura.jpg" alt="Agricultura">
-    <img src="img/natureza2.jpg" alt="Natureza">
-    <img src="img/plantacao.jpg" alt="Plantação">
+    <img src="https://images.unsplash.com/photo-1500530855697-b586d89ba3ee" alt="Campo">
+    <img src="https://images.unsplash.com/photo-1542315192-d53bffe3c39e" alt="Agricultura">
+    <img src="https://images.unsplash.com/photo-1517638851339-4e4c3e7e4ff9" alt="Natureza">
+    <img src="https://images.unsplash.com/photo-1562183241-510d4dbd2c9a" alt="Plantação">
   </div>
 </section>
 
